@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<section class="hero is-link">
+<section class="hero is-link is-small">
     <div class="hero-head">
         <nav class="navbar" ><div class="container">
             <div id="navbarMenuHeroA" class="navbar-menu">
@@ -20,7 +20,7 @@
                     {{#if loggedIn}}
                     <a class="navbar-item" href="/dashboard">dashboard</a>
                     <a class="navbar-item" href="/">home</a>
-                    <button class="navbar-item button is-link" id="logout">logout</button>
+                    <a class="navbar-item is-link" id="logout">logout</a>
                     {{else}}
                     <a class="navbar-item" href="/">home</a>
                     <a class="navbar-item" href="/login">login</a>
@@ -36,14 +36,15 @@
         </h1>
     </div>
 </section>
-<div class="wrapper container">
+<div class="wrapper container my-5">
 <main>
     {{{ body }}}
 </main>
-<footer>
-    Thanks for visiting!
-</footer>
 </div>
+<footer class="footer has-background-link-light has-text-link">
+    <div class="content has-text-centered">
+    Thanks for visiting!</div>
+</footer>
 
 {{#if loggedIn}}
 <script src="/javascript/logout.js"></script>

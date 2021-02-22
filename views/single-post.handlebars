@@ -1,14 +1,13 @@
 {{> post-info post}}
 
 {{#if loggedIn}}
-<form class="comment-form">
+<form class="comment-form my-2">
 <div>
-<textarea name="comment-body"></textarea>
+<textarea class="textarea" name="comment-body"></textarea>
 </div>
 
 <div>
-<button type="submit">add comment</button>
-<button type="button" class="upvote-btn">upvote</button>
+<button class="button is-link p-2 my-2" type="submit">add comment</button>
 </div>
 </form>
 {{/if}}
