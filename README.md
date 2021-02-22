@@ -7,7 +7,7 @@
   A simple CMS-style blog site where developers can publish and comment on blog posts. The application leverages MySQL, Sequelize, express-handlebars, dotenv, bcrypt, express-session, and connect-session-sequelize.
 
   
-  The application is deployed live [here](https://devcenter.heroku.com/articles/jawsdb)
+  The application is deployed live [here](https://whispering-garden-29284.herokuapp.com/)
 
   ## Table of Contents
   * [User Story and Acceptance Criteria](#user-story-and-acceptance-criteria)
